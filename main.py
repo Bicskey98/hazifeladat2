@@ -14,7 +14,7 @@ while a_betusek !='':
   else:
     print("gewfhw")
   """
-
+'''
 import random
 lista=[]
 szam = random.randint(0,50)
@@ -43,6 +43,33 @@ print(szam10)
 if szam and szam1 and szam2 and szam3 and szam4 and szam5 and szam6 and szam7 and szam8 and szam9 and szam10 % 4==0:
   list.append(szam)
   print(f"A lista tartalma:{lista}")
+
+'''
+
+"""
+import random 
+szam = random.randint(1,40)
+print(szam)
+if szam % 3 ==0:
+  print(f"A szám osztahtó hárommal:{szam}")
+"""
+"""
+#ezt nem ertem teljesen
+lista=[]
+szavak = ['ajtó','tojás','Ottó','Tamás', 'tép','Tesla','alma','python']
+for szo in szavak:
+  if szo[0] == "t":
+    lista.append(szo)
+  elif szo[0] == "T":
+    lista.append(szo)
+    print(lista)
+"""
+
+szamok = [120, 9, 5, 24, 6, 17, -45, 92, 15, 48, 57]
+if szamok % 3==0:
+  print(szamok)
+
+  
   
 
 
